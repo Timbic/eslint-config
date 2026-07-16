@@ -33,7 +33,8 @@
 		"lint": "eslint --cache",
 		"lint:fix": "eslint --cache --fix",
 		"typecheck": "tsc --noEmit",
-		"release": "bumpp"
+		"release": "bumpp",
+		"prepare": "husky"
 	},
 	"peerDependencies": {
 		"eslint": "^9.0.0 || ^10.0.0"
@@ -42,17 +43,25 @@
 		"@eslint/js": "^10.0.1",
 		"@typescript-eslint/eslint-plugin": "^8.64.0",
 		"@typescript-eslint/parser": "^8.64.0",
-		"eslint-plugin-import-lite": "^0.6.0",
 		"eslint-config-flat-gitignore": "2.3.0",
+		"eslint-plugin-import-lite": "^0.6.0",
 		"globals": "^17.7.0"
 	},
 	"devDependencies": {
 		"@timbic/prettier-config": "1.0.10",
 		"bumpp": "^11.1.0",
 		"eslint": "^10.7.0",
+		"husky": "^9.1.7",
+		"lint-staged": "^17.0.8",
 		"prettier": "^3.9.5",
 		"tsdown": "^0.22.5",
 		"typescript": "^6.0.3"
+	},
+	"lint-staged": {
+		"*/**/*.{js,ts,md,json}": [
+			"pnpm fmt",
+			"pnpm lint:fix"
+		]
 	},
 	"packageManager": "pnpm@11.12.0"
 }
