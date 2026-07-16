@@ -26,6 +26,7 @@
 		"access": "public"
 	},
 	"scripts": {
+		"dev": "pnpm dlx @eslint/config-inspector --config eslint.config.ts",
 		"build": "tsdown",
 		"fmt": "prettier --cache --write .",
 		"fmt:chk": "prettier --check .",
