@@ -1,6 +1,11 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:recommended"
-  ]
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:recommended", ":pinDevDependencies", ":widenPeerDependencies", "group:allNonMajor"],
+	"baseBranchPatterns": ["main"],
+	"ignoreDeps": ["pnpm"],
+	"minimumReleaseAge": "7 days",
+	"postUpdateOptions": ["pnpmDedupe"],
+	"vulnerabilityAlerts": {
+		"postUpdateOptions": ["pnpmDedupe"]
+	}
 }
