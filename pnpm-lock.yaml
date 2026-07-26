@@ -31,25 +31,25 @@ importers:
         specifier: 1.1.1
         version: 1.1.1(prettier@3.9.5)
       bumpp:
-        specifier: ^11.1.0
+        specifier: 11.1.0
         version: 11.1.0
       eslint:
-        specifier: ^10.7.0
+        specifier: 10.7.0
         version: 10.7.0(jiti@2.7.0)
       husky:
-        specifier: ^9.1.7
+        specifier: 9.1.7
         version: 9.1.7
       lint-staged:
-        specifier: ^17.1.0
+        specifier: 17.2.0
         version: 17.2.0
       prettier:
-        specifier: ^3.9.5
+        specifier: 3.9.5
         version: 3.9.5
       tsdown:
-        specifier: ^0.22.7
+        specifier: 0.22.7
         version: 0.22.7(publint@0.3.21)(typescript@6.0.3)
       typescript:
-        specifier: ^6.0.3
+        specifier: 6.0.3
         version: 6.0.3
 
 packages:
