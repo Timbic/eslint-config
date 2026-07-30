@@ -5,6 +5,6 @@ export default defineConfig({
 	format: ["esm"],
 	platform: "neutral",
 	deps: {
-		skipNodeModulesBundle: true,
+		neverBundle: true,
 	},
 });
