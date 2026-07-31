@@ -28,8 +28,8 @@ importers:
         version: 17.7.0
     devDependencies:
       '@timbic/prettier-config':
-        specifier: 1.1.1
-        version: 1.1.1(prettier@3.9.6)
+        specifier: 1.1.4
+        version: 1.1.4(prettier@3.9.6)
       bumpp:
         specifier: 12.0.0
         version: 12.0.0
@@ -245,8 +245,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@timbic/prettier-config@1.1.1':
-    resolution: {integrity: sha512-v6NpfQaTd9XxU6FkJCZPahxRpbYq8REV6cdqphzRIY6+8wm1c73xwi097sbo9e94jysOlUtybnTtIavSlGrbrQ==}
+  '@timbic/prettier-config@1.1.4':
+    resolution: {integrity: sha512-NR2ywHCn2FlbmnYAJj2Fi7J7Qnw7k/kfMgdy7fZ67FeW3mIhFqY0xWmoP36rP0Z97wm/TnYyyOHtccR/7KE+7A==}
     peerDependencies:
       prettier: ^3.0.0
 
@@ -1048,7 +1048,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@timbic/prettier-config@1.1.1(prettier@3.9.6)':
+  '@timbic/prettier-config@1.1.4(prettier@3.9.6)':
     dependencies:
       prettier: 3.9.6
 
