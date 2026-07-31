@@ -11,9 +11,7 @@
 	"packageRules": [
 		{
 			"minimumReleaseAge": null,
-			"matchPackageNames": [
-				"/@timbic/*/"
-			]
+			"matchPackageNames": ["/@timbic/*/"]
 		}
 	]
 }
