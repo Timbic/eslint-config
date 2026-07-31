@@ -10,8 +10,10 @@
 	},
 	"packageRules": [
 		{
-			"matchPackagePatterns": ["@timbic/*"],
-			"minimumReleaseAge": null
+			"minimumReleaseAge": null,
+			"matchPackageNames": [
+				"/@timbic/*/"
+			]
 		}
 	]
 }
