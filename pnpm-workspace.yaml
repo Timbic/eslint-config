@@ -4,4 +4,5 @@ nodeVersion: "22.22.2"
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 604800 # 7 days
 minimumReleaseAgeExclude:
-    - "@timbic/*"
+  - "@timbic/*"
+  - brace-expansion@5.0.9
