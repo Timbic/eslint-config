@@ -12,13 +12,6 @@
 		{
 			"minimumReleaseAge": null,
 			"matchPackageNames": ["/@timbic/*/"]
-		},
-		{
-			"postUpgradeTasks": {
-				"commands": ["pnpm lint", "pnpm format"],
-				"executionMode": "update"
-			},
-			"matchUpdateTypes": ["minor", "patch", "pin", "digest"]
 		}
 	]
 }
