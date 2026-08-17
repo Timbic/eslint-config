@@ -2,7 +2,7 @@ saveExact: true
 nodeVersion: "22.22.2"
 
 trustPolicy: no-downgrade
-trustPolicyIgnoreAfter: 604800 # 7 days
+trustPolicyIgnoreAfter: 86400 # 7 days
 minimumReleaseAgeExclude:
-  - "@timbic/*"
-  - brace-expansion@5.0.9
+    - "@timbic/*"
+    - brace-expansion@5.0.9
