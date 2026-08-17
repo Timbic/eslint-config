@@ -49,8 +49,8 @@
 	},
 	"devDependencies": {
 		"@timbic/prettier-config": "1.1.4",
-		"bumpp": "12.1.1",
-		"eslint": "10.8.0",
+		"bumpp": "12.2.1",
+		"eslint": "10.8.1",
 		"husky": "9.1.7",
 		"lint-staged": "17.3.0",
 		"prettier": "3.9.6",
