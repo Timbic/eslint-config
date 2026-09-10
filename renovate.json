@@ -19,7 +19,7 @@
 			"groupName": "dependencies"
 		},
 		{
-			"matchDepTypes": ["dependencies", "peerDependencies"],
+			"matchDepTypes": ["dependencies"],
 			"rangeStrategy": "bump"
 		},
 		{
