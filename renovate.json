@@ -16,7 +16,10 @@
 		{
 			"matchDepTypes": ["dependencies", "peerDependencies"],
 			"matchUpdateTypes": ["minor", "patch", "digest"],
-			"groupName": "production dependencies",
+			"groupName": "production dependencies"
+		},
+		{
+			"matchDepTypes": ["dependencies", "peerDependencies"],
 			"rangeStrategy": "bump"
 		},
 		{
