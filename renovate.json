@@ -15,13 +15,13 @@
 		},
 		{
 			"matchDepTypes": ["dependencies", "peerDependencies"],
-			"excludeUpdateTypes": ["major"],
+			"matchUpdateTypes": ["minor", "patch", "digest"],
 			"groupName": "production dependencies",
 			"rangeStrategy": "bump"
 		},
 		{
 			"matchDepTypes": ["devDependencies"],
-			"excludeUpdateTypes": ["major"],
+			"matchUpdateTypes": ["minor", "patch", "digest"],
 			"groupName": "development dependencies"
 		}
 	]
