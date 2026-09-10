@@ -16,7 +16,7 @@
 		{
 			"matchDepTypes": ["dependencies", "peerDependencies"],
 			"matchUpdateTypes": ["minor", "patch", "digest"],
-			"groupName": "production dependencies"
+			"groupName": "dependencies"
 		},
 		{
 			"matchDepTypes": ["dependencies", "peerDependencies"],
@@ -25,7 +25,7 @@
 		{
 			"matchDepTypes": ["devDependencies"],
 			"matchUpdateTypes": ["minor", "patch", "digest"],
-			"groupName": "development dependencies"
+			"groupName": "dev dependencies"
 		}
 	]
 }
