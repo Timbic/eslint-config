@@ -1,6 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended", ":pinDevDependencies", ":widenPeerDependencies", "group:allNonMajor"],
+	"extends": ["config:recommended", ":pinDevDependencies", ":widenPeerDependencies"],
 	"baseBranchPatterns": ["main"],
 	"ignoreDeps": ["pnpm"],
 	"minimumReleaseAge": "1 day",
@@ -12,6 +12,17 @@
 		{
 			"minimumReleaseAge": null,
 			"matchPackageNames": ["/@timbic/*/"]
+		},
+		{
+			"matchDepTypes": ["dependencies", "peerDependencies"],
+			"excludeUpdateTypes": ["major"],
+			"groupName": "production dependencies",
+			"rangeStrategy": "bump"
+		},
+		{
+			"matchDepTypes": ["devDependencies"],
+			"excludeUpdateTypes": ["major"],
+			"groupName": "development dependencies"
 		}
 	]
 }
