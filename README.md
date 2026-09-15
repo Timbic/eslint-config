@@ -1,5 +1,10 @@
 # @timbic/eslint-config
 
+<p>
+  <a href="https://www.npmjs.com/package/@timbic/eslint-config"><img src="https://img.shields.io/npm/v/@timbic/eslint-config.svg?logo=nodedotjs" alt="npm package"></a>
+  <a href="https://github.com/Timbic/eslint-config"><img src="https://img.shields.io/badge/Github-gray.svg?logo=github" alt="github repo"></a>
+</p>
+
 Extensible ESLint flat configuration for smart developers.
 
 ## Usage
