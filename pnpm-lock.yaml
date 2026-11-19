@@ -188,6 +188,9 @@ importers:
       '@typescript-eslint/parser':
         specifier: ^8.73.0
         version: 8.73.0(eslint@10.15.0(jiti@2.7.0))(typescript@6.0.3)
+      eslint:
+        specifier: ^10.15.0
+        version: 10.15.0(jiti@2.7.0)
       eslint-config-flat-gitignore:
         specifier: 2.4.0
         version: 2.4.0(eslint@10.15.0(jiti@2.7.0))
@@ -204,18 +207,12 @@ importers:
       bumpp:
         specifier: 12.3.0
         version: 12.3.0
-      eslint:
-        specifier: 10.15.0
-        version: 10.15.0(jiti@2.7.0)
       husky:
         specifier: 9.1.7
         version: 9.1.7
       lint-staged:
         specifier: 17.6.1
         version: 17.6.1
-      prettier:
-        specifier: 3.10.1
-        version: 3.10.1
       tsdown:
         specifier: 0.23.7
         version: 0.23.7(typescript@6.0.3)

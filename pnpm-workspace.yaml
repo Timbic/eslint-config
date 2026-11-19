@@ -3,6 +3,13 @@ autoDedupe: true
 saveExact: true
 nodeVersion: 24.22.1
 
+publicHoistPattern:
+    - eslint
+    - husky
+    - lint-staged
+    - prettier
+    - stylelint
+
 lockfile:
     includeResolutionSettings: true
 
