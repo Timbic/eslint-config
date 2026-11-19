@@ -1,7 +1,7 @@
 autoDedupe: true
 
 saveExact: true
-nodeVersion: "24.22.1"
+nodeVersion: 24.22.1
 
 lockfile:
     includeResolutionSettings: true
