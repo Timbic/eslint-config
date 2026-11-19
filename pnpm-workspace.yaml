@@ -1,7 +1,15 @@
+autoDedupe: true
+
 saveExact: true
 nodeVersion: "24.22.1"
+
+lockfile:
+    includeResolutionSettings: true
 
 trustPolicy: no-downgrade
 trustPolicyIgnoreAfter: 86400 # 1 day
 minimumReleaseAgeExclude:
     - "@timbic/*"
+
+skills:
+    dirs: []
