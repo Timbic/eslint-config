@@ -168,8 +168,12 @@ snapshots:
 lockfileVersion: '9.0'
 
 settings:
+  autoDedupe: true
   autoInstallPeers: true
+  dedupeInjectedDeps: true
+  dedupePeerDependents: true
   excludeLinksFromLockfile: false
+  linkWorkspacePackages: false
 
 importers:
 
@@ -195,8 +199,8 @@ importers:
         version: 17.14.0
     devDependencies:
       '@timbic/prettier-config':
-        specifier: 2.0.1
-        version: 2.0.1
+        specifier: 2.0.2
+        version: 2.0.2
       bumpp:
         specifier: 12.3.0
         version: 12.3.0
@@ -652,8 +656,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@timbic/prettier-config@2.0.1':
-    resolution: {integrity: sha512-x3V5L6GoLASNKCKzPZlqSIDvTJi9+lfnZ7KrTs7AfpwrU8fu+nKtz7oOjmG2UkyumCY23t2qIiRToW/sgpKCqQ==}
+  '@timbic/prettier-config@2.0.2':
+    resolution: {integrity: sha512-OuL/WDJH09qP+DlO9AA/Gr6Kpnv7uk2ZVw7t/2+pRyimG0rAjBP68jakJPoDU4aOrl1+5UTUZRwc7sBxawsu+g==}
 
   '@tybys/wasm-util@0.10.4':
     resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
@@ -1600,7 +1604,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@timbic/prettier-config@2.0.1':
+  '@timbic/prettier-config@2.0.2':
     dependencies:
       '@prettier/plugin-oxc': 0.2.4
       prettier: 3.10.1
