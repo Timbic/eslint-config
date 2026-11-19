@@ -1,6 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended", ":pinDevDependencies", ":widenPeerDependencies"],
+	"extends": ["config:recommended", "helpers:pinGitHubActionDigests", ":pinDevDependencies", ":widenPeerDependencies"],
 	"baseBranchPatterns": ["main"],
 	"ignoreDeps": ["pnpm"],
 	"minimumReleaseAge": "1 day",
@@ -26,6 +26,25 @@
 			"matchDepTypes": ["devDependencies"],
 			"matchUpdateTypes": ["minor", "patch", "digest"],
 			"groupName": "dev dependencies"
+		},
+		{
+			"matchManagers": ["github-actions"],
+			"matchUpdateTypes": ["pinDigest"],
+			"minimumReleaseAge": null
+		},
+		{
+			"matchManagers": ["github-actions"],
+			"matchDepTypes": ["uses-with"],
+			"matchDepNames": ["node"],
+			"enabled": false
+		},
+		{
+			"matchManagers": ["github-actions"],
+			"dependencyDashboardCategory": "GitHub Actions",
+			"groupName": "GitHub Actions",
+			"groupSlug": "github-actions",
+			"separateMajorMinor": false,
+			"separateMultipleMajor": false
 		}
 	]
 }
