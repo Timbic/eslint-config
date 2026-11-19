@@ -3,6 +3,7 @@
 <p>
   <a href="https://www.npmjs.com/package/@timbic/eslint-config"><img src="https://img.shields.io/npm/v/@timbic/eslint-config.svg?logo=nodedotjs" alt="npm package"></a>
   <a href="https://github.com/Timbic/eslint-config"><img src="https://img.shields.io/badge/Github-gray.svg?logo=github" alt="github repo"></a>
+  <a href="https://npmx.dev/package/@timbic/eslint-config"><img src="https://img.shields.io/badge/npmx.dev-black?logo=npm" alt="view on npmx"></a>
 </p>
 
 Extensible ESLint flat configuration for smart developers.
@@ -10,8 +11,21 @@ Extensible ESLint flat configuration for smart developers.
 ## Usage
 
 ```bash
-pnpm add -D eslint @timbic/eslint-config
+pnpm add -D @timbic/eslint-config
 ```
+
+> **Important:** When using pnpm, don't forget to hoist ESLint to the top level in `pnpm-workspace.yaml`:
+>
+> ```yaml
+> publicHoistPattern:
+> 	- eslint
+> ```
+>
+> Alternatively, install ESLint as a dev dependency:
+>
+> ```bash
+> pnpm add -D eslint
+> ```
 
 ```ts
 // eslint.config.{js,mjs,ts,mts}
@@ -53,3 +67,7 @@ You can use this command to inspect all the rules and configs in your resolved f
 ```bash
 pnpm dlx @eslint/config-inspector
 ```
+
+## License
+
+Released under the [MIT License](./LICENSE).
