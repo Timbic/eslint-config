@@ -46,7 +46,7 @@
 		"globals": "^17.14.0"
 	},
 	"devDependencies": {
-		"@timbic/prettier-config": "2.0.2",
+		"@timbic/prettier-config": "2.0.4",
 		"bumpp": "12.3.0",
 		"husky": "9.1.7",
 		"lint-staged": "17.6.1",

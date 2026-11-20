@@ -202,8 +202,8 @@ importers:
         version: 17.14.0
     devDependencies:
       '@timbic/prettier-config':
-        specifier: 2.0.2
-        version: 2.0.2
+        specifier: 2.0.4
+        version: 2.0.4
       bumpp:
         specifier: 12.3.0
         version: 12.3.0
@@ -653,8 +653,8 @@ packages:
   '@rolldown/pluginutils@1.0.1':
     resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
 
-  '@timbic/prettier-config@2.0.2':
-    resolution: {integrity: sha512-OuL/WDJH09qP+DlO9AA/Gr6Kpnv7uk2ZVw7t/2+pRyimG0rAjBP68jakJPoDU4aOrl1+5UTUZRwc7sBxawsu+g==}
+  '@timbic/prettier-config@2.0.4':
+    resolution: {integrity: sha512-32QVUoNyvakZv539lylB/jinxHdyz0Z+VBzto6Ci1ZO9uL7MX8C8fijp+bqjL/nBcsN1xWTwViCpG0F9FPafVQ==}
 
   '@tybys/wasm-util@0.10.4':
     resolution: {integrity: sha512-W3c4gRigFS0T/Ma4qIYF3GDAc5AQdHb1yL5znJT1Zv1YaD9Kitx656wBjvr19qbiosmZT8lWDM5BEMynUqX65A==}
@@ -1601,7 +1601,7 @@ snapshots:
 
   '@rolldown/pluginutils@1.0.1': {}
 
-  '@timbic/prettier-config@2.0.2':
+  '@timbic/prettier-config@2.0.4':
     dependencies:
       '@prettier/plugin-oxc': 0.2.4
       prettier: 3.10.1
