@@ -18,7 +18,7 @@ pnpm add -D @timbic/eslint-config
 >
 > ```yaml
 > publicHoistPattern:
-> 	- eslint
+>     - eslint
 > ```
 >
 > Alternatively, install ESLint as a dev dependency:
